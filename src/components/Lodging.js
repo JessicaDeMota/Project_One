@@ -2,6 +2,7 @@ import './css/Lodging.css';
 import spongehouse from './img/spongebobs-house.webp'
 import pathouse from './img/patricks-house.jpeg'
 import squidhouse from './img/squidwards-house.png'
+import React from 'react';
 
 import Card from './Card';
 

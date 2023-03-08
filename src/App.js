@@ -1,11 +1,12 @@
 import './App.css';
 
 import Homepage from './components/Homepage';
-import Lodging from './components/Lodging';
+import Rides from './components/Rides';
 import Attractions from './components/Attractions';
-import Restaurants from './components/Restaurants';
+import Visit from './components/Visit';
 
 import { Routes, Route, Outlet, Link } from "react-router-dom";
+import React from 'react';
 
 
 export default function App() {
@@ -14,9 +15,9 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Homepage />} />
-          <Route path="lodging" element={<Lodging />} />
-          <Route path="restaurants" element={<Restaurants />} />
-          <Route path="attractions" element={<Attractions />} />
+          <Route path="rides" element={<Rides/>} />
+          <Route path="visit" element={<Visit />} />
+          <Route path="attractions" element={<Attractions/>} />
 
 
           {/* Using path="*"" means "match anything", so this route

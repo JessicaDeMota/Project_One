@@ -1,4 +1,5 @@
 //import './Attractions.css';
+import React from 'react';
 
 function Attractions() {
   return (
