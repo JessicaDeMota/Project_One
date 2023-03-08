@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './fonts/SpongeboyRegular.otf'
+import './fonts/CarnivalmfOpenshadow-ld5w.ttf'
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';

@@ -28,7 +28,7 @@ export default function App() {
       </Routes>    </div>
   );
 }
-const navStyle = {textDecoration: "none", color: "blue"};
+const navStyle = {textDecoration: "none", color: "black"};
 function Layout() {
   return (
     <div>
@@ -40,10 +40,10 @@ function Layout() {
             <Link style={navStyle} to="/">Home</Link>
           </li>
           <li>
-            <Link style={navStyle} to="/lodging">Lodging</Link>
+            <Link style={navStyle} to="/rides">Rides</Link>
           </li>
           <li>
-            <Link style={navStyle} to="/restaurants">Restaurants</Link>
+            <Link style={navStyle} to="/visit">Visit</Link>
           </li>
           <li>
             <Link style={navStyle} to="/attractions">Attractions</Link>

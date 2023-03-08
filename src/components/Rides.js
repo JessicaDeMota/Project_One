@@ -1,5 +1,5 @@
 import './css/Rides.css';
-import rescue from '.img/rescue_boats.jpeg'
+import rescue from './img/rescue_boats.jpeg'
 import astroworld from './img/astro_world_coster.webp'
 import jaws from './img/jaws_seaworld.jpeg'
 import React, { Component }  from 'react';

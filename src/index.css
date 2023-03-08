@@ -13,7 +13,7 @@ code {
 }
 
 @font-face {
-  font-family: "SpongeboyRegular";
-  src: local("SpongeboyRegular"),
-   url("./fonts/SpongeboyRegular.otf") format("truetype");
+  font-family: "CarnivalmfOpenshadow";
+  src: local("CarnivalmfOpenshadow"),
+   url("./fonts/CarnivalmfOpenshadow-ld5w.ttf") format("truetype");
   }
