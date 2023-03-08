@@ -9,13 +9,18 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from "react-router-dom";
 
 
-createRoot(document.getElementById('root')).render(<h1>Your App</h1>)
-const root = ReactDOM.createRoot(document.getElementById('root')).render(<h1>Project_One</h1>)
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+// createRoot(document.getElementById('root')).render(<h1>Your App</h1>)
+// const root = ReactDOM.createRoot(document.getElementById('root')).render(<h1>Project_One</h1>)
+// root.render(
+//   <React.StrictMode>
+//     <App />
+//   </React.StrictMode>
+// );
+const container = document.getElementById('root');
+const root = createRoot(container);
+root.render(<React.StrictMode>
+  <App />
+  </React.StrictMode>);
 
 reportWebVitals();
 // If you want to start measuring performance in your app, pass a function
