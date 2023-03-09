@@ -1,9 +1,11 @@
-//import './Homepage.css';
+import './css/Homepage.css';
 import React from 'react';
 
 function Homepage() {
   return (
-      <h1 style={{fontFamily: "SpongeboyRegular", color: "black"}}>Film Adventure</h1>
+    <div className = "main">
+      <h1 id ='text'style={{fontFamily: "CarnivalmfOpenshadow", color: "white"}}>Film Adventure</h1>
+      </div>
   );
 }
 

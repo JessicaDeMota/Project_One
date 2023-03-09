@@ -1,7 +1,12 @@
 .main {
     background-color: lightcyan;
     text-align: center;
-    color: blue
+    color: blue;
+    width:100vw;
+    height:calc(100vh - 50px);
+    display:flex;
+    align-items: center;
+    justify-content:center;
 }
 
 .header h1 {
@@ -10,8 +15,8 @@
 
 img {
     border-radius: 5px;
-    height: 400px;
-    width: 285px;
+    /* height: 400px;
+    width: 285px; */
     object-fit: cover;
     margin: 20px 0px;
 }
