@@ -1,12 +1,17 @@
-import './css/Homepage.css';
-import React from 'react';
+import "./css/Homepage.css";
+import React from "react";
 
 function Homepage() {
-  return (
-    <div className = "main">
-      <h1 id ='text'style={{fontFamily: "CarnivalmfOpenshadow", color: "white"}}>Film Adventure</h1>
-      </div>
-  );
+
+    const text = document.querySelector(".text p");
+
+    text.innerHTML = text.innerText
+        .split("")
+        .map(
+            (char, i) =>
+            `<span style="transform:rotate(${i * 5.8}deg)">${char}</span>`
+        )
+        .join("");
 }
 
 export default Homepage;
