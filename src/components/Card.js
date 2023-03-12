@@ -4,8 +4,8 @@ import React from 'react';
 function Card (props) {
     return (
         <div className="card">
-          <img src={props.img} alt="lodging img" />
-          <p>
+          <img className='image' src={props.img} alt="lodging img" />
+          <p className='description'>
             {props.description}
           </p>
         </div>

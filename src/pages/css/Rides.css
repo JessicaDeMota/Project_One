@@ -1,0 +1,21 @@
+.header-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.subheader {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: space-around;
+}

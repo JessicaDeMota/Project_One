@@ -1,76 +1,25 @@
 import './App.css';
 
-import Homepage from './components/Homepage';
-import Rides from './components/Rides';
-import Attractions from './components/Attractions';
-import Visit from './components/Visit';
+import Homepage from './pages/Homepage';
+import Rides from './pages/Rides';
+import Attractions from './pages/Attractions';
+import Visit from './pages/Visit';
 
 import { Routes, Route, Outlet, Link } from "react-router-dom";
 import React from 'react';
+import NavBar from './components/NavBar';
 
 
 export default function App() {
   return (
     <div className="App">
+    <NavBar/>
       <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Homepage />} />
-          <Route path="rides" element={<Rides/>} />
-          <Route path="visit" element={<Visit />} />
-          <Route path="attractions" element={<Attractions/>} />
-
-
-          {/* Using path="*"" means "match anything", so this route
-                acts like a catch-all for URLs that we don't have explicit
-                routes for. */}
-          <Route path="*" element={<NoMatch />} />
-        </Route>
-      </Routes>    </div>
-  );
-}
-const navStyle = {textDecoration: "none", color: "black"};
-function Layout() {
-  return (
-    <div>
-      {/* A "layout route" is a good place to put markup you want to
-          share across all the pages on your site, like navigation. */}
-      <nav>
-        <ul>
-          <li>
-            <Link style={navStyle} to="/">Home</Link>
-          </li>
-          <li>
-            <Link style={navStyle} to="/rides">Rides</Link>
-          </li>
-          <li>
-            <Link style={navStyle} to="/visit">Visit</Link>
-          </li>
-          <li>
-            <Link style={navStyle} to="/attractions">Attractions</Link>
-          </li>
-          <li>
-            <Link style={navStyle} to="/nothing-here">Nothing Here</Link>
-          </li>
-        </ul>
-      </nav>
-
-      <hr />
-
-      {/* An <Outlet> renders whatever child route is currently active,
-          so you can think about this <Outlet> as a placeholder for
-          the child routes we defined above. */}
-      <Outlet />
-    </div>
-  );
-}
-
-function NoMatch() {
-  return (
-    <div>
-      <h2>Nothing to see here!</h2>
-      <p>
-        <Link to="/">Go to the home page</Link>
-      </p>
+          <Route path="/" index element={<Homepage />} />
+          <Route path="/rides" element={<Rides/>} />
+          <Route path="/visit" element={<Visit />} />
+          <Route path="/attractions" element={<Attractions/>} />
+      </Routes>
     </div>
   );
 }

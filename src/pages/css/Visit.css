@@ -1,0 +1,25 @@
+.map-wrapper {
+    /* styling the border / wrapper of the map */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+    object-fit: cover;
+    border-radius: 8px;
+    height: 330px;
+    width: 400px;
+
+    /* Can change height and width of the image */
+}
+
+.info-wrapper {
+/* Style and place the containers where you want them */
+/* Using flex */
+}
+
+.box {
+/* Style each individual container */
+}
