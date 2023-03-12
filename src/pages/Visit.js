@@ -1,4 +1,3 @@
-
 import React from 'react'
 import universal_studios from '../img/universal_studios_map.png';
 import "./css/Visit.css";
@@ -25,20 +24,20 @@ function Visit() {
         </div>
       </div>
       <div className='awesome-div'>
-        <h1>Film Adventure Park is Rooted In Bringing Your Films To Real Life</h1>
-        <p>Enjoy three days of adventure in which you can become the stars of thesee movies and experience iconic rollercoasters in a fun and safe way.</p>
+        <h1>Get 5 Days of Awesome for the Price of 3 with a 2-Park, 3-Day Ticket*</h1>
+        <p>Enjoy five days of thrills at Universal Studios Florida and Universal’s Islands of Adventure when you purchase a 2-Park, 3-Day ticket. Add Universal’s Volcano Bay for just $35 more and experience all three amazing Universal Orlando Resort theme parks.</p>
       </div>
       <div className='price-picture-div'>
         <img src='https://www.universalorlando.com/webdata/k2/en/us/files/Images/gds/ioa-velocicoaster-ride-guest%E2%80%94boys-enter-entrance-c.jpg' alt='logo' />
         <div className='ticket-offer' >
           <h1>Ticket Offer Details</h1>
           <p>*Ticket prices and availability vary by day. Restrictions apply</p>
-          <p>*Starting Rates for our Spring Break Special</p>
+          <p>*Ticket prices and availability vary by day. Restrictions apply</p>
         </div>
         <div className='buy-now' >
           <p>From</p>
           <h1>$234.99</h1>
-          <p>1 Park, 3-Day + 2 Days Free*</p>
+          <p>2-Park, 3-Day + 2 Days Free*</p>
           <p>plus tax, per adult</p>
           <button onClick={buyNowClick}>Buy Now</button>
         </div>
@@ -48,3 +47,4 @@ function Visit() {
 }
 
 export default Visit
+
