@@ -1,6 +1,8 @@
 # Project 1 Example
 ## UI/UX Design
 
+This application is a fictional adventure park that consists of famous film rollercoaster rides and film experiences. The user will be able to book a stay and view an itenary of what each day would look like. 
+
 Install react-router-dom:
 
 ```npm install react-router-dom```

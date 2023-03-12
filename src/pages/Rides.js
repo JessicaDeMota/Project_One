@@ -1,6 +1,6 @@
 import './css/Rides.css';
 import rescue from '../img/rescue_boats.jpeg';
-import astroworld from '../img/astro_world_coster.webp';
+import harry from '../img/Harry-Potter.jpeg';
 import jaws from '../img/jaws_seaworld.jpeg';
 import React, { Component }  from 'react';
 
@@ -8,8 +8,8 @@ import Card from '../components/Card';
 
 function Rides() {
 
-  const rescueDescription = 'Thrill Meter : 7/10\nLocation In Park : Adventureland\nHistory : Live from Adventureland movie'
-  const astroWorldDescription = 'Thrill Meter : 10/10\nLocation In Park : Stormi Corner\nHistory : Live from Astroworld'
+  const rescueDescription = 'Thrill Meter : 7/10 \n Location In Park : Adventureland \n History : Live from Adventureland movie'
+  const harryDescription = 'Thrill Meter : 10/10 \nLocation In Park : Slugs Corner\nHistory : Live from The Basement'
   const jawsDescription = 'Thrill Meter: 6/10\nLocation In Park: Swim With Sea\nHistoy: Stay Beware of Sharks ! Watch for sharks and other seacreatures.\nAs seen in 1983 in the Seaworld movie this is swim with sea.'
 
   return (
@@ -20,7 +20,7 @@ function Rides() {
       </div>
       <div className='content-wrapper'>
         <Card img={rescue} description={rescueDescription}/>
-        <Card img={astroworld} description={astroWorldDescription}/>
+        <Card img={harry} description={harryDescription}/>
         <Card img={jaws} description={jawsDescription}/>
       </div>
     </div>

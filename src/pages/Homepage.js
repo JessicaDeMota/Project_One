@@ -6,7 +6,7 @@ function Homepage() {
 
     return (
         <div>
-            <h1>Adventure Park Home Page</h1>
+            <h1 className="welcome">Adventure Park Home Page</h1>
             <Wheel/>
         </div>
     )
